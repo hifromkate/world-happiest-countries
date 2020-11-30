@@ -1,0 +1,51 @@
+html,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.page_container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.map {
+  height: 100%;
+}
+
+.header {
+  background-color: #e6f4f1;
+  color: #002b34;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.mapboxgl-popup-close-button {
+  outline: none;
+}
+
+.marker-btn img {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+  background: none;
+}
+
+.marker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.popup {
+  padding: 1px;
+}
